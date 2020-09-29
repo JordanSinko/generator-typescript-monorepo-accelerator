@@ -1,6 +1,6 @@
 {
   "name": "generator-typescript-monorepo-accelerator",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "My cool generator",
   "files": [
     "generators"
