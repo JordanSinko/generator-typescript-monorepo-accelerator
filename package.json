@@ -1,0 +1,31 @@
+{
+  "name": "generator-typescript-monorepo-accelerator",
+  "version": "0.0.0",
+  "description": "",
+  "files": [
+    "generators"
+  ],
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "scripts": {
+    "format": "pretty-quick --staged"
+  },
+  "dependencies": {
+    "yeoman-generator": "^1.0.0"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.14",
+    "@types/node": "^14.11.2",
+    "husky": "^4.3.0",
+    "jest": "^26.4.2",
+    "npm-run-all": "^4.1.5",
+    "prettier": "^2.1.2",
+    "pretty-quick": "^3.0.2"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}

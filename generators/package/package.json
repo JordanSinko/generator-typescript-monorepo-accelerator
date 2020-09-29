@@ -1,0 +1,14 @@
+{
+  "name": "@root/another-package",
+  "version": "0.0.0",
+  "license": "MIT",
+  "scripts": {
+    "check-types": "tsc --noEmit",
+    "build": "npm run build:cleanup && npm run build:types && npm run build:ts",
+    "build:cleanup": "rimraf dist",
+    "build:types": "tsc --emitDeclarationOnly",
+    "build:ts": "esbuild src/index.ts --outdir=dist --target=es2019 --platform=node"
+  },
+  "dependencies": {},
+  "devDependencies": {}
+}

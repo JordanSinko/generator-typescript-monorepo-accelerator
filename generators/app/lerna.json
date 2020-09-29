@@ -1,0 +1,13 @@
+{
+  "version": "0.0.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "version": {
+      "allowBranch": "master",
+      "message": "chore(release): %s"
+    },
+    "publish": {}
+  }
+}
